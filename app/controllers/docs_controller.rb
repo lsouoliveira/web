@@ -70,6 +70,10 @@ class DocsController < ApplicationController
     render Docs::CardView.new
   end
 
+  def carousel
+    render Docs::CarouselView.new
+  end
+
   def calendar
     render Docs::CalendarView.new
   end
